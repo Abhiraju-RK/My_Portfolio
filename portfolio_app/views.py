@@ -18,4 +18,4 @@ def contact(request):
 
 def download_resume(request):
     file_path='static/ABHIRAJU Resume.pdf (1).pdf'
-    return FileResponse(open(file_path, 'rb'), as_attachment=True, filename="My_Resume.pdf")
+    return FileResponse(open(file_path, 'rb'), as_attachment=True, filename="Abhiraju_Resume.pdf")
