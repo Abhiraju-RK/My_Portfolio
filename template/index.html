@@ -5,7 +5,6 @@
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <meta name="author" content="Devcrud">
     <title>Abhiraju Portfolio</title>
     <!-- font icons -->
     <link rel="stylesheet" href="{% static 'vendors/themify-icons/css/themify-icons.css' %}">
@@ -21,8 +20,8 @@
             <div class="header-content">
                 <h4 class="header-subtitle" >Hello, I am</h4>
                 <h2 class="header-title">ABHIRAJU</h2>
-                <h6 class="header-mono" >Junior Full-Stack Developer | Designer </h6>
-                <button class="btn btn-primary btn-rounded" onclick="window.print()"><i class="ti-printer pr-2"></i>Print Resume</button>
+                <h6 class="header-mono" >Full-Stack Developer | Designer </h6>
+                <a href="{% url 'download_resume' %}"><button class="btn btn-primary btn-rounded"><i class="ti-printer pr-2"></i>Download Resume</button></a>
             </div>
         </div>
     </header>
@@ -67,7 +66,6 @@
                 <h5 class="mb-3">A Ui/Ux Designer / Developer</h5>
                 <p class="mt-20">Highly motivated Python full stack developer with a strong passion for creating efficient 
                     solutions.Excellent communication and teamwork skills.</p>
-                <a href="{% url 'download_resume' %}"><button class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>Download My CV</button></a>
             </div>
             <div class="col-lg-4 about-card">
                 <h3 class="font-weight-light">Personal Info</h3>
@@ -131,7 +129,7 @@
                             <hr>
                             <h6 class="title text-danger">2024-Sep - Present</h6>
                             <P> junior Full Stack Web Developer</P>
-                            <P class="subtitle">yberia Software Pvt Ltd, Technopark - ollaborated with senior developers to design and implement efficient database schemas - Worked on both front-end and back-end development using Django and JavaScript </P>
+                            <P class="subtitle">Cyberia Software Pvt Ltd, Technopark - Collaborated with senior developers to design and implement efficient database schemas - Worked on both front-end and back-end development using Django and JavaScript </P>
                             <h6 class="title text-danger">2022-Nov - 2023-jan</h6>
                             <P>UI/UX Designer</P>
                             <P class="subtitle">On Avodha Learn The basic of design tool like Figma ,XD . Design prototype of web some Application Interface</P>
@@ -230,7 +228,7 @@
     <section class="section bg-dark py-5">
         <div class="container text-center">
             <h2 class="text-light mb-5 font-weight-normal">I Am Available For FreeLance</h2>
-            <button class="btn bg-primary w-lg" >Hire me</button>
+           <a  href="mailto:abhiraju5984@gmail.com"> <button class="btn bg-primary w-lg" >Hire me</button></a>
         </div>
     </section>
 
@@ -282,7 +280,7 @@
                                 <i class="ti-envelope icon-md"></i>
                             </div>
                             <div class="col-10">
-                                <h6 class="d-inline">Email :<br> <a href="abhiraju5984@gmail.com"><span class="text-muted">abhiraju5984@gmail.com</span></a></h6>
+                                <h6 class="d-inline">Email :<br> <a href="mailto:abhiraju5984@gmail.com"><span class="text-muted">abhiraju5984@gmail.com</span></a></h6>
                             </div>
                         </div>
                         <ul class="social-icons pt-4">
